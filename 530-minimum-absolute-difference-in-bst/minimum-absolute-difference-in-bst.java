@@ -27,7 +27,6 @@ class Solution {
         {
             BhargavDiff = Math.min(BhargavDiff,root.val-privesVal);
         }
-         
          if(root != null)
          {
              privesVal = root.val;
