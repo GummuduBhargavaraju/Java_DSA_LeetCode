@@ -14,11 +14,11 @@
  * }
  */
 class Solution {
-    int ans;
+    int b2B;
     public int rangeSumBST(TreeNode root, int low, int high) {
-        ans = 0;
+        b2B = 0;
          Bhargav2B(root,  low, high);
-         return ans;
+         return b2B;
         
     }
     public void Bhargav2B(TreeNode root, int low, int high)
@@ -29,7 +29,7 @@ class Solution {
         }
         if(root.val >= low && root.val <=high)
         {
-            ans +=root.val; 
+            b2B +=root.val; 
         }
         Bhargav2B(root.left,  low, high);
          Bhargav2B(root.right,  low, high);
