@@ -8,12 +8,9 @@ class Solution {
                 min = Math.min(min , salary[i]);
                 max = Math.max(max , salary[i]);
                 sum += salary[i];
-
-            
-            
         }
         double avgsum = sum - min -max;
-        double  avglength = salary.length - 2;
+        double  avglength = salary.length - 2; // max and min --> -2 chesanu
         double  avrg =  avgsum/avglength; 
         return avrg ;
     }
