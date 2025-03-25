@@ -8,7 +8,6 @@ class Solution {
                 sum += i;
             }
         }
-        return sum;
-        
+        return sum;  
     }
 }
