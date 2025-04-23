@@ -42,7 +42,7 @@ class Solution {
      root.right = buildTree( preorder,  priStrat+ Leftnum  + 1 ,  priEnd,
      inorder ,  inRoot+1 , inEnd ,  inMap );
       
-   return root;
+     return root;
     }
     
     
