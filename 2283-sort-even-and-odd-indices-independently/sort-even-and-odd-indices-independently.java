@@ -5,7 +5,7 @@ class Solution {
             int [] evens = new int [nums.length -odds.length];
          for(int i = 0 , x = 0 , y = 0; i<nums.length ; i++)
         {
-            if (i %2 == 0)
+            if (i % 2 == 0)
             {
                 evens[x++] = nums[i];  
             }
@@ -19,12 +19,10 @@ class Solution {
         {
             if(i %2 == 0)
             {
-              nums[i] =  evens[x++];
-               
+              nums[i] =  evens[x++];    
             }
             else{
-                nums[i] = odds[y--];
-               
+                nums[i] = odds[y--];  
             }
         }
         return nums;
