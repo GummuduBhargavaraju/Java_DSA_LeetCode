@@ -32,6 +32,6 @@ class Solution {
         dsf(grid, i+1, j);
         dsf(grid, i-1, j);
         dsf(grid,i , j+1);
-        dsf(grid,i,j-1);
+        dsf(grid,i , j-1);
     }
 }
