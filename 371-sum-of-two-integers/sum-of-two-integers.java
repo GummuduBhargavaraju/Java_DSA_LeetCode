@@ -5,8 +5,8 @@ class Solution {
         {
              int temp = a^b;
              int carry = (a & b) << 1;
-                       a = temp;
-                       b = carry;
+              a = temp;
+              b = carry;
 
         }
         return a;
