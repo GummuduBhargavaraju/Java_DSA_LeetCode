@@ -5,7 +5,7 @@ class Solution {
         {
             return n;
         }
-
+             
         int [] map = new int [n+1];
 
         map[0]=0;
@@ -15,7 +15,6 @@ class Solution {
         {
             map[i] = map[i-1] + map[i-2];
         }
-        return map[n];
-        
+        return map[n];    
     }
 }
