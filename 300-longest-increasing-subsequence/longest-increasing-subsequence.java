@@ -22,7 +22,7 @@ class Solution {
         {
             if(D[i] > D[maxLength])
             {
-                 D[maxLength] = D[i] ;
+                 D[maxLength] = D[i];
             }
         }
 
